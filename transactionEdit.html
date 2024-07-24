@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./transactionIncome.css">
-    <title>Transaction income</title>
+    <link rel="stylesheet" href="./transactionEdit.css">
+    <title>Transaction Edit</title>
 </head>
 
 <body>
@@ -100,7 +100,7 @@
         <div class="packageSetting">
             <div class="add_airlines">
                 <div class="add-header">
-                    <h1>Add Your Transaction Here</h1>
+                    <h1>Edit Your Bank’s Information</h1>
                 </div>
                 <div class="input-setting">
                     <div class="input1">
@@ -113,9 +113,9 @@
                             </select>
                         </div>
                         <div class="subInput">
-                            <label for="text">Customer’s Bank Account Number<span>*</span></label><br>
+                            <label for="text">Target Audience<span>*</span></label><br>
                             <select name="" id="city">
-                                <option value="1">Customer’s Bank Account Number*</option>
+                                <option value="1">Customer</option>
                                 <option value="2">karachi</option>
                                 <option value="3">Faisalabad</option>
                             </select>
@@ -123,9 +123,9 @@
                     </div>
                     <div class="input1">
                         <div class="subInput">
-                            <label for="text">Target Audience<span>*</span></label><br>
+                            <label for="text">Name<span>*</span></label><br>
                             <select name="" id="city">
-                                <option value="1">income</option>
+                                <option value="1">Name</option>
                                 <option value="2">karachi</option>
                                 <option value="3">Faisalabad</option>
                             </select>
@@ -145,14 +145,16 @@
                             <input type="text" placeholder="6465531321321321">
                         </div>
                         <div class="subInput">
-                            <label for="text">Receiver’s Bank Account Number<span>*</span></label><br>
-                            <input type="654654654653465">
+
+                            <label for="text">Date<span>*</span></label><br>
+                            <input type="datetime-local">
+
                         </div>
 
 
                     </div>
 
-                    <div class="input1">
+                    <!-- <div class="input1">
                         <div class="subInput">
 
                             <label for="text">Date<span>*</span></label><br>
@@ -164,17 +166,17 @@
                             <input type="text" placeholder="Discription">
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
-                <!-- <div class="input2">
+                <div class="input2">
                     <label for="text">Discription<span>*</span></label><br>
                     <input type="text" placeholder="Discription">
-                </div> -->
+                </div>
                 <div style="display: flex;gap: 100px;" class="button-footer">
                     <button style="display: flex;align-items: center;justify-content: center;font-size: 25px;"><i
-                            class='bx bx-left-arrow-alt'></i><span><a href="./transactionAirline.html"> BACK
+                            class='bx bx-left-arrow-alt'></i><span><a href="./transactionIncome.html"> BACK
                             </a></span></button>
-                    <button style="font-size: 25px;" id="update"><a href="./transactionEdit.html">ADD</a></button>
+                    <button style="font-size: 25px;" id="update"><a href="#">ADD</a></button>
                 </div>
             </div>
         </div>
